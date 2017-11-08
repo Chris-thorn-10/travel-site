@@ -1,6 +1,6 @@
 .wrapper {
-    padding-left:18px; 
-    padding-right:18px;
+    padding-left: 18px; 
+    padding-right: 18px;
     max-width: 1236px; /* 1200 +18 for both margins*/
     margin-left: auto;
     margin-right: auto;
@@ -11,16 +11,36 @@
     }
     
     &__b-margin {
-        margin-bottom:1rem;
+        margin-bottom: 1rem;
         
-        @mixin atSmall{
-            margin-bottom:3.875rem;
+        @mixin atSmall {
+            margin-bottom: 3.875rem;
         }
     }
     
     .wrapper {
-        padding-left:0; 
-        padding-right:0;
+        padding-left: 0; 
+        padding-right: 0;
+    }
+    
+    &__no-padding-until-medium {
+        padding-left: 0px; 
+        padding-right: 0px; 
+        
+        @mixin atMedium {
+            padding-left: 18px; 
+            padding-right: 18px;
+        }
+    }
+    
+    &__no-padding-until-large {
+        padding-left: 0px; 
+        padding-right: 0px; 
+        
+        @mixin atLarge {
+            padding-left: 18px; 
+            padding-right: 18px;
+        }
     }
    
 }
