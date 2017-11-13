@@ -28,7 +28,8 @@
     }
     
     &__blue {
-        color: $mainBlue;   
+        color: $mainBlue; 
+        color:white;
     }
 }
        
