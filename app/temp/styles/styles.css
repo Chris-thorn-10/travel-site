@@ -1032,6 +1032,10 @@ a {
         background-image: url('/assets/images/sprites/sprite-69f19c2e.svg');    
     }
 
+.no-svg .icon{
+         background-image: url('/assets/images/sprites/sprite-69f19c2e.png');    
+    }
+
 .icon__clear-view-escapes {
         width: 142.4px;
         height: 59.53px;
