@@ -40,7 +40,7 @@
             transform: translateX(0); 
             
             .site-header__dark & {
-                transform: scale(.47);
+                transform: scale(.46);
             }
         }
     }
